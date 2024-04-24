@@ -1,5 +1,9 @@
 # Clustering beyond K-means
 
+What follows is a reading designed to supplement content from [The Nuts and Bolts of Machine Learning](https://www.coursera.org/learn/the-nuts-and-bolts-of-machine-learning), a course I wrote in Google's Advanced Data Analytics certificate program. The related content includes instructional videos, quizzes, and exemplar Python notebooks, all of which I wrote. For example, further discussion of the K-means algorithm can be found in the [K-means for color compression](https://github.com/Naive-Bae/notebooks/blob/main/K_means_for_color_compression.ipynb) notebook, which is where many of the visuals in this reading were generated. Note that the notebook must be opened in Colab and run in its entirety to populate some of the visuals, as they do not persist on GitHub.
+
+___
+
 As you now know, K-means is a powerful and straightforward way to group data based on its proximity to other data. However, as with all models, K-means has its limitations. This reading will review the strengths of K-means and also demonstrate some of its weaknesses. Additionally, you’ll learn about two additional clustering methodologies to explore as alternatives: 
 
 * DBSCAN
