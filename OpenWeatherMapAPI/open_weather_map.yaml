@@ -56,7 +56,7 @@ paths:
             type: string
           in: query
           name: lat
-          description: '**Latitude**. *Example: 35*. Latitude coordinate of the location of your interest. Must use with `lat`.'
+          description: '**Latitude**. *Example: 35*. Latitude coordinate of the location of your interest. Must use with `lon`.'
         - schema:
             type: string
             default: en
@@ -109,7 +109,7 @@ paths:
             default: json
           in: query
           name: mode
-          description: '**Mode**. Example: html. Determines the format of the response. Possible values are `json`, `xml`, and `html`. If the mode parameter is empty, the format is `json` by default.'
+          description: '**Mode**. *Example: html*. Determines the format of the response. Possible values are `json`, `xml`, and `html`. If the mode parameter is empty, the format is `json` by default.'
       responses:
         '200':
           description: OK
